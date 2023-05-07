@@ -1,0 +1,60 @@
+@media(max-width: 510px){
+    .container{
+        height: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .caixa-1{   
+        width: 100%;
+        height: 420px;
+        flex-direction: column;
+    }
+
+    .caixa-1 h1{
+        font-size: 25px;
+        margin: auto;
+        margin-top: 1px;
+    }
+
+    .circle-number{
+        height: 160px;
+        width: 160px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .caixa-1-texts{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .caixa-1-texts h3{
+        font-size: 30px;
+    }
+
+    .caixa-1-texts p{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .cx-informacoes{
+        width: 100vw;
+        height: 400px;
+    }
+    
+    .cx-informacoes h4{
+        font-size: 20px;
+    }
+
+    .informacoes-ps .p{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 60px;
+    } 
+
+    .caixa-btn .btn-continuar{
+        padding: 15px 100px; 
+        font-size: 18px;
+    }
+}
